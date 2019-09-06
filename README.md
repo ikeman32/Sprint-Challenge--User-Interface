@@ -33,14 +33,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is a descriptive tag that relates to a specific element of a page.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+display: inline
+height and width have no effect
+Only takes up as much space as element
+display: block
+will breack the flow of content on new line.
+must use height and width
 
 3. What are the 4 areas of the box model?
+content
+padding
+border
+margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+cross axis
 
 5. Explain why git is valuable to a team of developers.
+Enables member to work on the same section without disrupting the master branch
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -55,9 +68,9 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 
