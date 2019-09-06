@@ -194,7 +194,7 @@ header img {
 }
 
 .top-content {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -203,7 +203,7 @@ header img {
 }
 
 .about-top-content {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -211,6 +211,7 @@ header img {
 .about-top-content-text {
     margin-top: 20px;
     padding-bottom: 20px;
+    margin-left: 30px;
 }
 
 .top-content .text-container {
@@ -243,6 +244,32 @@ header img {
     width: 45%;
     height: 10%;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-text h2 {
+    margin-top: 10px;
+}
+
+.about-middle-text button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.about-middle-text button:hover {
+    background-color: crimson;
+    color: white;
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(30deg);
+    /* Safari prior 9.0 */
+    transform: rotate(30deg);
+    /* Standard syntax */
+}
+
+#left,
+#right {
+    margin-top: 20px;
 }
 
 .about-middle-text button {
@@ -294,6 +321,10 @@ header img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-footer {
+    margin-top: 30px;
 }
 
 footer {
