@@ -229,6 +229,22 @@ header img {
     border-bottom: 1px dashed black;
 }
 
+.about-middle {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.about-middle-text {
+    margin: 10px;
+    width: 45%;
+    height: 10%;
+    border-bottom: 1px dashed black;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
