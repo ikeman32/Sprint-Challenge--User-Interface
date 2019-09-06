@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,7 +165,36 @@ p {
     margin: 0 auto;
 }
 
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 7%;
+    width: 12%;
+    margin-top: 26px;
+}
+
+.nav-content {
+    width: 691px;
+    margin-top: 35px;
+}
+
+.nav-content a {
+    margin-left: 80px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,10 +202,27 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-top-content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content-text {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-container h2 {
+    font-weight: 700;
 }
 
 .middle-content {
@@ -90,9 +230,58 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-middle {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.about-middle-text {
+    margin: 10px;
+    width: 45%;
+    height: 10%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-text h2 {
+    margin-top: 10px;
+}
+
+.about-middle-text button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.about-middle-text button:hover {
+    background-color: crimson;
+    color: white;
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(30deg);
+    /* Safari prior 9.0 */
+    transform: rotate(30deg);
+    /* Standard syntax */
+}
+
+#left,
+#right {
+    margin-top: 20px;
+}
+
+.about-middle-text button {
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .middle-content .boxes {
@@ -118,12 +307,24 @@ p {
     justify-content: space-around;
 }
 
+.about-bottom {
+    margin: 20px 0;
+}
+
+.about-bottom div {
+    margin: 0 30px;
+}
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-footer {
+    margin-top: 30px;
 }
 
 footer {
